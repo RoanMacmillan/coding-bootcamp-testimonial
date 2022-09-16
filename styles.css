@@ -17,12 +17,14 @@ main {
     
 }
 
-.scroll {
+
+
+.scrolltanya {
 
     display: none !important;
 }
 
-.scroll1 {
+.scrolljohn {
 
     display: flex !important;
 }
@@ -36,6 +38,8 @@ main {
 #tanya {
 
 }
+
+
 
 .slide-container {
 
@@ -143,16 +147,28 @@ p {
     background-color: rgb(241, 241, 241);
 }
 
-.prev {
+#prev-btn {
 
     border-radius: 25px 0px 0px 25px;
 }
 
-.next {
+#next-btn {
 
     border-radius: 0px 25px 25px 0px;
     
 
+}
+
+.fade {
+
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
@@ -211,6 +227,12 @@ main {
         min-width: 1440px;
         
 
+    }
+
+    #tanya-p {
+
+        padding-left: 0;
+        padding-right: 0;
     }
 
 
