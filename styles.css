@@ -112,7 +112,7 @@ p {
 
 
 
-#quote{
+.quote{
     position: absolute;
     z-index: 100;
     width: 60px;
@@ -194,7 +194,7 @@ main {
     width: 500px;
 }
 
-#quote {
+.quote {
 
     left: 215px;
     top: 495px;
@@ -299,7 +299,7 @@ main {
 
     }
 
-    #quote {
+    .quote {
 
         top: 160px;
         left: 240px;
