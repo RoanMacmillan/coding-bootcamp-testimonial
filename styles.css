@@ -159,6 +159,20 @@ p {
 
 }
 
+#prev-btn2 {
+
+    border-radius: 25px 0px 0px 25px;
+}
+
+#next-btn2 {
+
+    border-radius: 0px 25px 25px 0px;
+    
+
+}
+
+
+
 .fade {
 
     animation-name: fade;
@@ -172,7 +186,7 @@ p {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
 
 
 
